@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #fff;
+}
+#wrapper {
+  margin: 0px auto;
+  width: 1440px;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+.header {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+.header .header__nav {
+  list-style: none;
+}
+.header .header__nav li {
+  display: inline-block;
+  margin-right: 4px;
+}
+.header .header__nav li:last-child {
+  margin-right: 0px;
+}
+.header .header__nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #141416;
+}
+.content {
+  margin-top: 60px;
+}
+.post_highlight {
+  display: flex;
+  justify-content: space-between;
+}
+.post_highlight .post_highlight-main {
+  width: 789px;
+}
+.post_highlight .post_highlight-sub {
+  width: 379px;
+}
+.post__card {
+  margin-bottom: 20px;
+}
+.post__card .post__img {
+  border-radius: 24px;
+  overflow: hidden;
+}
+.post__card .post__img img {
+  width: 100%;
+}
+.post__card .post__body .post__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #141416;
+  padding: 10px 0px;
+}
+.post__card .post__body .post__desc {
+  color: #777e90;
+  font-size: 16px;
+  line-height: 24px;
+}
+.post_highlight-sub .post__card .post__body .post__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #141416;
+  padding: 10px 0px;
+}
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+.post__footer .post__date {
+  color: #b1b5c3;
+  font-size: 12px;
+  line-height: 24px;
+}
+.post__footer .more {
+  color: #0066e6;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.social {
+  text-align: center;
+}
+.social .social__title h1 {
+  color: #00295c;
+  font-size: 44px;
+}
+.social .social__icon {
+  width: 379px;
+  height: 112px;
+  border-radius: 24px;
+  padding: 16px 18px;
+  margin: 30px auto;
+  border: 1px solid #e6e8ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 12px 32px 0px #3781bd1a;
+}
+.social .social__icon ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.social .social__icon ul li {
+  display: inline-block;
+}
+.social .social__icon ul li {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  line-height: 52px;
+  text-align: center;
+}
+.social .social__icon ul li.item {
+  border: 1px solid #e6e8ec;
+}
+.social .social__icon ul li i {
+  font-size: 20px;
+  color: #777e90;
+}
+.content__main {
+  display: flex;
+  justify-content: space-between;
+}
+.post__container {
+  width: 700px;
+}
+.post__container .sidebar {
+  width: 441px;
+}
+.post__container__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__container__title .title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #00295c;
+}
+.post__container__title .button__paginate button i {
+  font-size: 24px;
+}
+.post__container__title .button__paginate button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.post__container__title .button__paginate button.active {
+  border: 1px solid #e6e8ec;
+}
+.post__card-hozi {
+  display: flex;
+  justify-content: space-between;
+}
+.post__card-hozi .post__img {
+  width: 277px;
+  object-fit: contain;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.post__card-hozi .post__body {
+  width: 423px;
+}
+.post__card-hozi .post__img img {
+  width: 100%;
+}
